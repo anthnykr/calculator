@@ -1,0 +1,72 @@
+body {
+  background-color: lightcyan;
+}
+
+#calculator {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid;
+
+  /* centering the calculator */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -250px;
+}
+
+#display {
+  background-color: black;
+  color: white;
+  height: 100px;
+  font-size: 50px;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#operators {
+  display: flex;
+  height: 80px;
+  width: 100%;
+}
+
+.operator {
+  background-color: lightgray;
+  flex-grow: 1;
+}
+
+.bottom-section {
+  display: flex;
+}
+
+#numbers {
+  display: flex;
+  flex-wrap: wrap;
+  height: 320px;
+  width: 75%;
+}
+
+.number, .clear, .decimal {
+  background-color: white;
+  border: 1px solid grey;
+  height: 78px;
+  width: 123px;
+}
+
+#equals {
+  background-color: orange;
+  flex-grow: 1;
+  border: 1px solid grey;
+}
+
+.operator, .number, #equals, .clear, .decimal {
+  border: 1px solid grey;
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
