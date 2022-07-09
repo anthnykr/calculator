@@ -35,7 +35,7 @@ body {
 }
 
 .operator {
-  background-color: lightgray;
+  background-color: #C0C0C0;
   flex-grow: 1;
 }
 
@@ -51,7 +51,7 @@ body {
 }
 
 .number, .clear, .decimal {
-  background-color: white;
+  background-color: #eee;
   border: 1px solid grey;
   height: 78px;
   width: 123px;
@@ -69,4 +69,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.number:hover {
+  background-color: #E5E4E2;
 }
